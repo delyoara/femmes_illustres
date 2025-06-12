@@ -103,7 +103,7 @@ async function womenList() {
     // la div des adress dans est .women-address
     const womenAddress = document.createElement("div");
     womenAddress.classList.add("women-address");
-    const address = document.createElement("h3");
+    const address = document.createElement("h4");
     address.innerHTML = `Adresse : ${results[i].short_desc}`;
     womenAddress.appendChild(address);
 

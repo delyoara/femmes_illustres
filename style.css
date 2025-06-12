@@ -83,7 +83,7 @@ h1 {
 
 .p-1 {
   color: rgb(58, 58, 53);
-  font-size: 1.2vw;
+font-size: clamp(1rem, 2vw, 2.5rem);
   text-align: left;
   margin-top: 0;
 
@@ -94,7 +94,7 @@ h1 {
 
 .p-2 {
   color: rgb(58, 58, 53);
-  font-size: 1.2vw;
+font-size: clamp(1rem, 2vw, 2.5rem);
   text-align: left;
   margin-top: 3px;
   /* Ajuste la marge entre p1 et p2 */
@@ -130,6 +130,8 @@ h2{
   background-color: rgba(31, 130, 115, 0.863);
   font-family: 'Aboreto';
   color: white;
+  margin-top: 0.5rem;
+  
 }
 
 .women-pictures {
@@ -142,9 +144,9 @@ h2{
   font-family: 'montserrat';
 }
 
-.desc-all {
+/* .desc-all {
   background-color: rgb(249, 249, 249);
-}
+} */
 
 #womenPortraits {
   display: flex;
@@ -262,6 +264,9 @@ h2{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  overflow-y: auto; 
+   background-color: rgb(249, 249, 249);
+  /* padding-bottom: 1vw; */
 
 }
 
