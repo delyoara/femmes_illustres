@@ -63,7 +63,7 @@ body {
   padding: 20px;
   color: white;
 
-
+font-size: clamp(2.7rem, 5vw, 4.6rem);
   font-family: 'Aboreto';
   top: -20px;
 }
@@ -71,12 +71,11 @@ body {
 /* Marcher sur les pas de ces féminines icones... */
 h1 {
   color: rgba(9, 8, 8, 0.873);
+  font-size: clamp(1.7rem, 3vw, 4.2rem);
   text-align: left;
   margin-top: 60px;
-
   margin-bottom: 20px;
   margin-left: 20px;
-
   font-family: 'Aboreto';
   font-weight: bold;
 }
@@ -346,4 +345,7 @@ button:hover {
   height: 600px;
   position: relative;
   outline-style: none;
+}
+.nowrap {
+    white-space: nowrap;
 }
